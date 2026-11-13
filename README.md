@@ -1,6 +1,6 @@
 # Awesome-Data-Governance-Risk-Compliance-GRC
 
-# Top Data Governance, Risk & Compliance (GRC) Ecosystem
+## Top Data Governance, Risk & Compliance (GRC) Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Enterprise Risk Management, Regulatory Compliance & Audit Automation*  
