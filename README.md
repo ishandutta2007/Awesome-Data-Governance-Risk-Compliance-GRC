@@ -1,26 +1,50 @@
-# Awesome-Data-Governance-Risk-Compliance-GRC
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Data Governance, Risk &amp; Compliance (GRC) Banner" width="100%" />
+</p>
 
-## Top Data Governance, Risk & Compliance (GRC) Ecosystem
+# 🛡️ Awesome Data Governance, Risk & Compliance (GRC)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Enterprise Risk Management, Regulatory Compliance & Audit Automation*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC?color=blue" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Governance, Risk & Compliance (GRC)**. These tools help organizations centralize risk registers, map controls to regulatory frameworks, automate evidence collection, and maintain audit-ready documentation across SOC 2, ISO 27001, GDPR, HIPAA, and industry-specific mandates.
+---
 
-**Examples** include ServiceNow GRC, MetricStream, AuditBoard, LogicGate, Riskonnect, RSA Archer, Diligent HighBond, OneTrust, LogicManager, and open-source alternatives like CISO Assistant and Eramba (the category leaders).
+## 📌 Overview & Ecosystem Architecture
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted GRC, open-source risk management, and community-driven compliance automation—ideal for organizations seeking data sovereignty and predictable costs over six-figure enterprise licensing. The open-source GRC landscape has matured significantly: **CISO Assistant** offers a modern microservices architecture with 30+ ready frameworks , **Eramba** provides comprehensive evidence management with active release cadence , and **ComplianceAsCode** delivers security compliance content for multiple platforms .
+> Curated index of leading **Enterprise SaaS GRC Platforms**, **Open-Source Compliance Engines**, **Policy-as-Code Frameworks**, and **Audit Automation Tools**.  
+> *Targeting Enterprise Risk Management (ERM), Integrated Risk Management (IRM), Cloud Security Posture, and Continuous Evidence Collection across SOC 2, ISO 27001, NIST CSF, HIPAA, GDPR, and PCI-DSS.*
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Governance, Risk & Compliance (GRC)**. These tools empower security engineers, compliance officers, risk managers, and auditors to centralize risk registers, codify security controls, streamline vendor risk assessments, and maintain continuous audit-ready compliance postures.
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## SaaS/Hosted Platforms
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Enterprise SaaS & Hosted Platforms](#-enterprise-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global Governance, Risk, and Compliance (GRC) market is valued at approximately **$40B–$50B in 2024/2025** and is projected to expand beyond **$80B–$115B+ by 2030**, exhibiting a robust compound annual growth rate (**CAGR of ~10% to 14%**). 
+
+The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly: while mega-cap platform providers (e.g., ServiceNow, MetricStream, Archer, Diligent) capture multi-billion-dollar enterprise suites, specialized sub-sectors—including AI compliance automation (Vanta, Drata), privacy engineering (OneTrust), and open-source policy-as-code engines (OPA, Trivy, CISO Assistant)—foster continuous competitive disruption and active private equity consolidation.
+
+---
+
+## 🏢 Enterprise SaaS & Hosted Platforms
 
 | Product | Company Size (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limits | Description |
 |---|---|---|---|---|
@@ -35,42 +59,70 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 | **[LogicGate](https://www.logicgate.com/)** | **~$160M+ valuation** (backed by PSG; ~$49M–$59M ARR) | **$13,000.00/year** (entry application tier; median spend ~$52,600/year on Vendr; ~$1,083.33/month equivalent) | **Sales-guided Proof of Concept (PoC) only**; no self-service free trial or permanent free tier | Mid-market GRC built on the Risk Cloud no-code workflow builder for custom risk assessments and compliance processes. |
 | **[LogicManager](https://www.logicmanager.com/)** | **~$10M–$20M valuation** (bootstrapped/profitable; ~$6.3M–$7.7M annual revenue) | **$10,000.00/year** (entry package tier; value-based Jobs-to-be-Done pricing including unlimited users) | **90-day unconditional satisfaction guarantee** with guided trial onboarding; no permanent free tier | ERM and GRC software offering fixed all-inclusive Jobs-to-be-Done pricing with unlimited user seats and dedicated analyst support. |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** | [![Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers) | **The most recommended open-source GRC base platform.** Community Edition self-hosted via Docker. **30+ ready frameworks** including ISO 27001, NIST CSF, SOC 2, and custom controls. Controls are reusable objects connecting risks to frameworks. Role-based access, assessment history, reporting views. **Microservices-based architecture** (backend, frontend, dispatcher) ideal for AI integration. API, n8n, MCP, and Kafka integration options . |
-| **[Eramba](https://github.com/eramba/eramba)** | [![Stars](https://img.shields.io/github/stars/eramba/eramba?style=social&color=white)](https://github.com/eramba/eramba/stargazers) | **Comprehensive open-source GRC with evidence management.** 3,689+ downloads last year, **10 releases in the past year**—active development cadence. Best for organizations tackling multiple frameworks simultaneously. Includes risk management, compliance, policy management, and audit capabilities . |
-| **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)** | [![Stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white)](https://github.com/ComplianceAsCode/content/stargazers) | **Security compliance content for multiple platforms** (2.4k stars, 734 forks). Very active (last update Feb 2024). Provides automated compliance checks and remediation content for various operating systems and platforms. Excellent for training AI models on structured compliance data . |
+## ⚡ Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+*Ranked strictly by GitHub Star Count (descending).*
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[SimpleRisk](https://github.com/simplerisk/simplerisk)** | [![Stars](https://img.shields.io/github/stars/simplerisk/simplerisk?style=social&color=white)](https://github.com/simplerisk/simplerisk/stargazers) | Quick deployment, intuitive interface. **Trusted by hundreds of companies**. Regular updates. Best for healthcare, government, and technology sectors . |
-| **[GovReady-Q](https://github.com/GovReady/govready-q)** | [![Stars](https://img.shields.io/github/stars/GovReady/govready-q?style=social&color=white)](https://github.com/GovReady/govready-q/stargazers) | DevSecOps integration with automated assessments. 53+ GitHub forks. Active development. Best for teams needing fast authorization processes . |
-| **[auditree](https://github.com/openmainframeproject/auditree-framework)** | [![Stars](https://img.shields.io/github/stars/openmainframeproject/auditree-framework?style=social&color=white)](https://github.com/openmainframeproject/auditree-framework/stargazers) | Compliance automation and evidence collection. 64 stars, 24 forks. Moderate activity. Best for DevSecOps teams wanting to automate compliance . |
-| **[OpenGRC](https://github.com/topics/grc)** | — | Simple interface with quick framework imports. Best for small businesses and teams new to GRC. Exact repository URL not confirmed in search results . |
-| **[gapps](https://github.com/topics/grc)** | — | Multiple framework support with WYSIWYG editor. Best for organizations needing to track progress against various frameworks. Exact repository URL not confirmed . |
-
-**Frameworks for building custom systems**: Combine **CISO Assistant** for structured framework mapping with modern microservices architecture, **Eramba** for comprehensive evidence management across multiple frameworks, and **ComplianceAsCode** for automated compliance content—all deployable via Docker without six-figure enterprise licensing. For AI-enhanced GRC, CISO Assistant's microservices architecture is the recommended foundation for integrating predictive analytics and NLP-based evidence collection .
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- GRC platforms handle audit evidence, risk registers, and regulatory documentation; enforce role-based access, immutable audit logs, and compliance with applicable data protection regulations.
-- **Enterprise GRC pricing is genuinely six-figure territory.** MetricStream starts at **$75,000/year** and scales to **$1M** for large enterprises . ServiceNow IRM charges **$125–$375/operator/month** with a critical distinction between full operators and **Lite operators (~$75/month)** for attestation-only users—misclassifying 400 attesters as full operators costs **~$1.2M/year vs. $360K/year** . AuditBoard median is **~$45,947/year** but buyers who evaluate alternatives secure **15–30% lower pricing** . **Open-source GRC is viable but requires engineering effort.** CISO Assistant is the recommended base platform for AI-enhanced GRC development, with modern microservices architecture and 30+ ready frameworks . Eramba offers comprehensive evidence management with active development . Validate control mappings and evidence quality against your auditor's expectations before relying on any tool for certification.
+| Project | GitHub Stars | Description | Core Capabilities & Architecture |
+|---|---|---|---|
+| **[Trivy](https://github.com/aquasecurity/trivy)** | [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers) | Comprehensive security and compliance scanner for containers, Kubernetes, code repositories, and clouds. | Automated compliance scanning against CIS Benchmarks, NSA, and custom security standards; SBOM generation and vulnerability management. |
+| **[Prowler](https://github.com/prowler-cloud/prowler)** | [![Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers) | Open-source security assessment, auditing, and compliance hardening tool for AWS, Azure, GCP, and Kubernetes. | Continuous posture assessment mapped to CIS Benchmarks, NIST 800-53, ISO 27001, PCI-DSS, GDPR, and HIPAA. |
+| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Open-source, general-purpose policy engine that unifies policy enforcement across the cloud-native stack. | Declarative Policy-as-Code using Rego; decodes compliance boundaries into executable tests across microservices, Kubernetes, and CI/CD pipelines. |
+| **[Steampipe](https://github.com/turbot/steampipe)** | [![Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers) | The extensible SQL workbench for cloud infrastructure, compliance evidence gathering, and security auditing. | Query cloud resources and APIs directly with SQL; suite of open compliance mods covering SOC 2, NIST, CIS, HIPAA, and ISO 27001. |
+| **[DefectDojo](https://github.com/DefectDojo/django-DefectDojo)** | [![Stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social&color=white)](https://github.com/DefectDojo/django-DefectDojo/stargazers) | Leading open-source application vulnerability correlation and security orchestration platform (OWASP project). | Consolidates security findings, coordinates penetration tests, deduplicates vulnerabilities, and maps remediation to compliance frameworks. |
+| **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** | [![Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers) | Microservices-based, AI-native open-source GRC platform. Community Edition self-hosted via Docker. | Over 30+ preloaded frameworks (ISO 27001, NIST CSF, SOC 2, NIS2); reusable control objects, multi-tenant risk registers, and MCP / API integration. |
+| **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)** | [![Stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white)](https://github.com/ComplianceAsCode/content/stargazers) | Automated security compliance content and remediation baselines for Linux, containers, and hypervisors. | Production-grade SCAP, Ansible, and Bash compliance automation content aligned with DISA STIG, CIS, and USGCB benchmarks. |
+| **[Probo](https://github.com/getprobo/probo)** | [![Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers) | Open-source, AI-native GRC platform tailored for software engineering and security operations teams. | Full GRC lifecycle platform with CLI (`prb`), GraphQL API, and Model Context Protocol (MCP) integrations for automated agentic compliance. |
+| **[Ansible Lockdown (RHEL8-CIS)](https://github.com/ansible-lockdown/RHEL8-CIS)** | [![Stars](https://img.shields.io/github/stars/ansible-lockdown/RHEL8-CIS?style=social&color=white)](https://github.com/ansible-lockdown/RHEL8-CIS/stargazers) | Production-ready Ansible automation role for CIS benchmark compliance and operating system hardening. | Automated compliance auditing and remediation tasks matching Center for Internet Security (CIS) benchmark baselines. |
+| **[GovReady-Q](https://github.com/GovReady/govready-q)** | [![Stars](https://img.shields.io/github/stars/GovReady/govready-q?style=social&color=white)](https://github.com/GovReady/govready-q/stargazers) | Open-source compliance automation engine and questionnaire platform for DevSecOps and FISMA/FedRAMP. | Automated System Security Plan (SSP) authoring, self-assessment workflows, and fast compliance authorization tooling. |
+| **[MITRE SAF CLI](https://github.com/mitre/saf)** | [![Stars](https://img.shields.io/github/stars/mitre/saf?style=social&color=white)](https://github.com/mitre/saf/stargazers) | Command-line interface for the MITRE Security Automation Framework (SAF) streamling security data pipelines. | Normalizes vulnerability, attestation, and compliance results across disparate tools into standardized Heimdall and InSpec schemas. |
+| **[OpenGRC](https://github.com/LeeMangold/OpenGRC)** | [![Stars](https://img.shields.io/github/stars/LeeMangold/OpenGRC?style=social&color=white)](https://github.com/LeeMangold/OpenGRC/stargazers) | Streamlined, self-hosted GRC platform built for small-to-midsize security operations teams. | Core risk registers, control assessments, vendor risk tracking, and audit workflows mapped across ISO 27001, SOC 2, and NIST. |
+| **[SimpleRisk](https://github.com/simplerisk/simplerisk)** | [![Stars](https://img.shields.io/github/stars/simplerisk/simplerisk?style=social&color=white)](https://github.com/simplerisk/simplerisk/stargazers) | Intuitive open-source risk management platform trusted by enterprise and public sector organizations. | Streamlined risk identification, risk evaluation, mitigation planning, and audit compliance logging without heavy overhead. |
+| **[Eramba (Docker)](https://github.com/eramba/docker)** | [![Stars](https://img.shields.io/github/stars/eramba/docker?style=social&color=white)](https://github.com/eramba/docker/stargazers) | Dedicated Docker distribution and deployment environment for Eramba Open GRC software. | Production container deployment for Eramba's evidence management, multi-framework control mapping, and internal audit engine. |
+| **[Auditree Framework](https://github.com/ComplianceAsCode/auditree-framework)** | [![Stars](https://img.shields.io/github/stars/ComplianceAsCode/auditree-framework?style=social&color=white)](https://github.com/ComplianceAsCode/auditree-framework/stargazers) | GitOps-driven compliance automation framework that validates controls via automated Python tests. | Continuous compliance validation; executes compliance assertions as unit tests and records evidence directly into version-controlled Git trees. |
 
 ---
 
-**Made for compliance officers, risk managers, internal auditors, and developers building governance infrastructure.**  
-Let's make data governance, risk, and compliance more open, automated, and audit-ready.
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Data-Governance-Risk-Compliance-GRC&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help make this ecosystem directory comprehensive and up-to-date:
+
+1. **Fork** the repository.
+2. **Add or refine** entries in `README.md` (keep descriptions factual, include official URLs, and adhere to table formatting).
+3. **Validate** links, pricing data, or star badges.
+4. **Submit a Pull Request** with a concise explanation of your additions or edits.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated GRC and compliance directory valuable, consider showing your support:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🍴 **Fork** and share it with your security, engineering, and compliance teams.
+- ☕ **Sponsor or buy a coffee**: Support ongoing curation and maintenance via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+Thank you to all contributors and security champions helping make compliance open, automated, and audit-ready!
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated educational resource** — inclusion does not imply an official endorsement or legal compliance guarantee.
+- GRC platforms handle sensitive audit evidence, vulnerability records, and regulatory documentation; ensure your deployment enforces strict role-based access control (RBAC), immutable logging, encryption at rest and in transit, and adherence to relevant privacy laws (GDPR, CCPA, HIPAA).
+- Pricing figures, valuations, and contract tiers are benchmarked from publicly available disclosures, procurement databases (e.g., Vendr, SelectHub, Capterra, G-Cloud), and company announcements; actual quotes vary based on enterprise modules, user bands, and custom terms. Always validate control mappings and evidence quality directly with your certified auditor before relying on any tool for certification.
+
+---
+
+<p align="center">
+  <b>Built for compliance officers, risk managers, internal auditors, and platform engineers.</b><br/>
+  <i>Let's make data governance, risk, and compliance more open, automated, and audit-ready.</i>
+</p>
